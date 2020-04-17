@@ -493,7 +493,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/Projects/TestProjects/Javascripts/compare-and-decide-next/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/Projects/TestProjects/Javascripts/compare-and-decide/.next");
       return error;
     }
 
